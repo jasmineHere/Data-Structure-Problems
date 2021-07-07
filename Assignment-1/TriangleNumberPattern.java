@@ -1,4 +1,4 @@
-public class FirstTraingleNoPattern {
+public class TriangleNumberPattern {
 
     public static void pattern(int n) {
         int id = 1, nst = 1, nsp = n - 1;
