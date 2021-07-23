@@ -6,6 +6,7 @@ class Solution {
             if (temp != (ans - (x % 10)) / 10) {
                 return 0;
             }
+
             temp = ans;
             x = x / 10;
         }
