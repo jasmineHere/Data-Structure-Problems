@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class LCM {
-    public static int findGCD(int n1, int n2) {
+    public static int findLCM(int n1, int n2) {
         int on1 = n1, on2 = n2;
         while (n1 % n2 != 0) {
             int rem = n1 % n2;
@@ -17,7 +17,7 @@ public class LCM {
         System.out.println("Enter two nos to calculate their LCM: ");
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
-        int lcm = findGCD(n1, n2);
+        int lcm = findLCM(n1, n2);
         System.out.println("Calculated LCM: " + lcm);
         sc.close();
     }
