@@ -8,8 +8,8 @@ public class PascalTriangleProblem {
             if (r == 0) {
                 return 1;
             } else {
-                C = C * (n - i + 1) / i; // try the formula of nCr and nCr-1 and try to equate both, hence this equation
-                                         // can be derived
+                C = C * (n - i + 1) / i; /* try the formula of nCr and nCr-1 and try to equate both, hence this equation
+                                         can be derived */
             }
             i++;
         }
